@@ -9,7 +9,7 @@ PASSWORD=os.getenv('PASSWORD')
 
 
 adress_recipient='ggella1@yandex.ru'
-Letter_subject='Приглашение'
+letter_subject='Приглашение'
 site_name='https://dvmn.org/profession-ref-progra'
 friend_name='Fedor'
 sender_name='Elena'
@@ -38,7 +38,7 @@ Content-Type: text/plain; charset="UTF-8";
 Регистрируйся → {3}  
 На курсы, которые еще не вышли, можно подписаться и получить уведомление о релизе сразу на имейл.
 
-'''.format(LOGIN, adress_recipient, Letter_subject, site_name, friend_name, sender_name)
+'''.format(LOGIN, adress_recipient, letter_subject, site_name, friend_name, sender_name)
 
 letter=letter.encode('UTF-8')
 
